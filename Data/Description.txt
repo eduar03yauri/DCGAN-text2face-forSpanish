@@ -1,1 +1,0 @@
-The Data folder contains files with the training corpora of the Sent2vec and SentenceBERT models; as well as the resulting models trained with the CelebA text corpus. The information is organized as follows:
