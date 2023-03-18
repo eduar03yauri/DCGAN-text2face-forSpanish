@@ -8,4 +8,3 @@ The new model called *RoBERTa-base-bne-celebAEs-UNI* has been generated as a res
 - Download the model (full directory) from Drive or other oficial media. 
 - The downloaded model is in a directory named RoBERTa-base-bne-celebAEs-UNI.
 - Move the downloaded directory next to the Python code in Spanish that will use it.
-- 
