@@ -3,7 +3,16 @@ The model can be found at the following url:
 [RoBERTa model in Drive](https://drive.google.com/drive/folders/1uIxn6CPPNRnThRRsAs2G9_i3gRfDfxof?usp=sharing).
 
 ## Description
-The new model called RoBERTa-base-bne-celebAEs-UNI has been generated as a result of training the base model [RoBERTa-large-bne](https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne) with a descriptive text corpus of the CelebA dataset in Spanish. For the training, a specific corpus with 249,999 entries was prepared. Each entry is made up of two sentences and their respective similarity value, value between 0 and 1, calculated using the [Spacy](https://spacy.io/) library on their English pairs. You can download said repository from this repository at the following link or from the [Huggingface repository](https://huggingface.co/oeg/RoBERTa-CelebA-Sp). The total training time using the Sentence-transformer library was 42 days using all the available GPUs of the server, and with exclusive dedication. 
+The new model called RoBERTa-base-bne-celebAEs-UNI has been generated as a result of training the base model [RoBERTa-large-bne](https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne) with a descriptive text corpus of the CelebA dataset in Spanish. For the training, a specific corpus with 249,999 entries was prepared. Each entry is made up of two sentences and their respective similarity value, value between 0 and 1, calculated using the [Spacy](https://spacy.io/) library on their English pairs. You can download said repository from this repository at the following link or from the [Huggingface repository](https://huggingface.co/oeg/RoBERTa-CelebA-Sp). The total training time using the Sentence-transformer library was 42 days using all the available GPUs of the server, and with exclusive dedication.
+
+A comparison was made between the Spearman's correlation for 1000 test sentences between the base model and our trained model. 
+As can be seen in the following table, our model obtains better results (correlation closer to 1).
+
+| Models            | Spearman's correlation |
+|    :---:          |     :---: |
+| RoBERTa-base-bne  | 0.827176427 | 
+| RoBERTa-celebA-Sp | 0.999913276 | 
+
 ## How to use
 - Download the model (full directory) from Drive or [Huggingface repository](https://huggingface.co/oeg/RoBERTa-CelebA-Sp). 
 - The downloaded model is in a directory named RoBERTa-base-bne-celebAEs-UNI.
