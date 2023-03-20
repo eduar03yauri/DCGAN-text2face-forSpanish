@@ -28,8 +28,8 @@ As a result, it generates a _bin_ extension file which can be downloaded from th
 import sent2vec
 Model_path="sent2vec_celebAEs-UNI.bin"
 s2vmodel = sent2vec.Sent2vecModel()
-s2vmode.load_model(Model_path)
-caption = """El hombre luce una sombra a las 5 en punto. Su cabello es de color negro. Tiene una nariz grande con cejas tupidas. El hombre se ve atractivo"
+s2vmodel.load_model(Model_path)
+caption = """El hombre luce una sombra a las 5 en punto. Su cabello es de color negro. Tiene una nariz grande con cejas tupidas. El hombre se ve atractivo"""
 vector =  s2vmodel.embed_sentence(caption)
 print(vector)
 ```
