@@ -16,12 +16,6 @@ This work develops a study to generate images of faces from a textual descriptio
 - [Eduardo Yauri Lozano](https://github.com/eduar03yauri)
 - [Manuel Castillo-Cara](https://github.com/manwestc)
 
-
-## Contributors
-
-See the full list of contributors **[here](https://github.com/manwestc/TINTO/graphs/contributors)**.
-
-
 ## Licensing information
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />All code and resources of the present work in this repository are under the license <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
 
