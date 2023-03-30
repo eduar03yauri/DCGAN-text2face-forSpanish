@@ -112,4 +112,4 @@ print(vector)
 <kbd><img src="https://www.uni.edu.pe/images/logos/logo_uni_2016.png" alt="Universidad Politécnica de Madrid" width="110"></kbd>
 <kbd><img src="https://raw.githubusercontent.com/oeg-upm/TINTO/main/assets/logo-oeg.png" alt="Ontology Engineering Group" width="100"></kbd> 
 <kbd><img src="https://raw.githubusercontent.com/oeg-upm/TINTO/main/assets/logo-upm.png" alt="Universidad Politécnica de Madrid" width="100"></kbd>
-<kbd><img src="https://raw.githubusercontent.com/oeg-upm/TINTO/main/assets/logo-uclm.png" alt="Universidad de Castilla-La Mancha" width="90"></kbd> 
+<kbd><img src="https://raw.githubusercontent.com/oeg-upm/TINTO/main/assets/logo-uclm.png" alt="Universidad de Castilla-La Mancha" width="80"></kbd> 
