@@ -10,7 +10,7 @@
 
 This repository contains the code, models and corpus of the project _"Generative Adversarial Networks for Text-to-Face Synthesis & Generation: A Quantitative-Qualitative Analysis of Natural Language Processing Encoders for Spanish"_. 
 
-This work develops a study to generate images of faces from a textual description in Spanish. A cDCGAN was used as a generator, and a comparison of the RoBERTa-large-bne, RoBERTa -large-bne-celebAEs-UNI (our model) and Sent2vec The last two models were trained using a Spanish descriptive corpus of the CelebA image dataset.
+This work develops a study to generate images of faces from a textual description in Spanish. A cDCGAN was used as a generator, and a comparison of the RoBERTa-large-bne (**RoBERTa**), RoBERTa-large-bne-celebAEs-UNI (**RoBERTa+CelebA** our model) and Sent2vec (**Sent2vec+CelebA**). The last two models were trained using a Spanish descriptive corpus of the CelebA image dataset.
 
 ## RoBERTa+CelebA
 
@@ -19,7 +19,7 @@ The model can be found at the following url:
 [RoBERTa model in Drive](https://huggingface.co/oeg/RoBERTa-CelebA-Sp).
 
 ### Description
-The new model called RoBERTa-base-bne-celebAEs-UNI has been generated as a result of training the base model [RoBERTa-large-bne](https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne) with a descriptive text corpus of the CelebA dataset in Spanish. For the training, a specific corpus with 249,999 entries was prepared. Each entry is made up of two sentences and their respective similarity value, value between 0 and 1, calculated using the [Spacy](https://spacy.io/) library on their English pairs. You can download said repository from this repository at the following link or from the [Huggingface repository](https://huggingface.co/oeg/RoBERTa-CelebA-Sp). The total training time using the Sentence-transformer library was 42 days using all the available GPUs of the server, and with exclusive dedication.
+The new model called RoBERTa-base-bne-celebAEs-UNI has been generated as a result of training the base model [RoBERTa-large-bne](https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne) with a descriptive text corpus of the CelebA dataset in Spanish. For the training, a specific corpus with 249,000 entries was prepared. Each entry is made up of two sentences and their respective similarity value, value between 0 and 1, calculated using the [Spacy](https://spacy.io/) library on their English pairs. You can download said repository from this repository at the following link or from the [Huggingface repository](https://huggingface.co/oeg/RoBERTa-CelebA-Sp). The total training time using the Sentence-transformer library was 42 days using all the available GPUs of the server, and with exclusive dedication.
 
 A comparison was made between the Spearman's correlation for 1000 test sentences between the base model and our trained model. 
 As can be seen in the following table, our model obtains better results (correlation closer to 1).
