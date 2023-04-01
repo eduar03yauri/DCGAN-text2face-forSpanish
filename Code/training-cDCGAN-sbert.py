@@ -5,7 +5,7 @@
 #  This code implements the training of a cDCGAN (based on the architecture proposed in the Text2faceGAN work) using the 
 #  CelebA image dataset and its respective descriptive corpus in Spanish. To encode the sentences, the sentence-transformer 
 #  library was used together with an own model trained as part of the present work called
-#  CelebA_RoBERTa_Sp (robert-large-bne-celebAEs-UNI).
+#  RoBERTa-CelebA-Sp (robert-large-bne-celebAEs-UNI).
 ###########################################################################################################################
 from sentence_transformers import SentenceTransformer, InputExample, models, losses, util, evaluation
 from torch.utils.data import DataLoader
