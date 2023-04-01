@@ -107,6 +107,20 @@ print(vector)
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />All code and resources of the present work in this repository are under the license <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
 
+## Citation
+If you use resources from this repository in your work, please cite as:
+```
+@misc {python,
+	author       = { {Eduardo Yauri Lozano and Manuel Castillo-Cara} },
+	title        = {{Generative Adversarial Networks for Text-to-Face Synthesis & Generation: A Quantitative-Qualitative 
+                  Analysis of Natural Language Processing Encoders for Spanish}},
+	year         = 2023,
+	url          = { {https://github.com/eduar03yauri/DCGAN-text2face-forSpanish}},
+	doi          = {10.5281/zenodo.7791805},
+	publisher    = { GitHub }
+}
+```
+
 ## Institutions
 <kbd><img src="https://www.uni.edu.pe/images/logos/logo_uni_2016.png" alt="Universidad Politécnica de Madrid" width="110"></kbd>
 <kbd><img src="https://raw.githubusercontent.com/oeg-upm/TINTO/main/assets/logo-oeg.png" alt="Ontology Engineering Group" width="100"></kbd> 
