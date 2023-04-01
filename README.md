@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7463973.svg)](https://doi.org/10.5281/zenodo.7463973)
+[![DOI](https://zenodo.org/badge/613487713.svg)](https://zenodo.org/badge/latestdoi/613487713)
 [![Python Version](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://pypi.python.org/pypi/)
 [![Documentation Sent2Vec+CelebA](https://img.shields.io/badge/Documentation-Sent2vec%2BCelebA-blue)](https://huggingface.co/oeg/Sent2vec_CelebA_Sp)
 [![Documentation RoBERTa+CelebA](https://img.shields.io/badge/Documentation-RoBERTa%2BCelebA-blue)](https://huggingface.co/oeg/RoBERTa-CelebA-Sp)
