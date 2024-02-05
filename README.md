@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![DOI](https://zenodo.org/badge/613487713.svg)](https://zenodo.org/badge/latestdoi/613487713)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7791805.svg)](https://doi.org/10.5281/zenodo.7791805)
 [![Python Version](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://pypi.python.org/pypi/)
 [![Documentation Sent2Vec+CelebA](https://img.shields.io/badge/Documentation-Sent2vec%2BCelebA-blue)](https://huggingface.co/oeg/Sent2vec_CelebA_Sp)
 [![Documentation RoBERTa+CelebA](https://img.shields.io/badge/Documentation-RoBERTa%2BCelebA-blue)](https://huggingface.co/oeg/RoBERTa-CelebA-Sp)
@@ -109,15 +109,19 @@ print(vector)
 
 ## Citation
 If you use resources from this repository in your work, please cite as:
+
 ```
-@misc {python,
-	author       = { {Eduardo Yauri Lozano and Manuel Castillo-Cara} },
-	title        = {{Generative Adversarial Networks for Text-to-Face Synthesis & Generation: A Quantitative-Qualitative 
-                  Analysis of Natural Language Processing Encoders for Spanish}},
-	year         = 2023,
-	url          = { {https://github.com/eduar03yauri/DCGAN-text2face-forSpanish}},
-	doi          = {10.5281/zenodo.7791805},
-	publisher    = { GitHub }
+@article{YAURILOZANO2024103667,
+title = {Generative Adversarial Networks for text-to-face synthesis & generation: A quantitative–qualitative analysis of Natural Language Processing encoders for Spanish},
+journal = {Generative Adversarial Networks for text-to-face synthesis & generation: A quantitative–qualitative analysis of Natural Language Processing encoders for Spanish},
+volume = {61},
+number = {3},
+pages = {103667},
+year = {2024},
+issn = {0306-4573},
+doi = {https://doi.org/10.1016/j.ipm.2024.103667},
+url = {https://www.sciencedirect.com/science/article/pii/S030645732400027X},
+author = {Eduardo Yauri-Lozano and Manuel Castillo-Cara and Luis Orozco-Barbosa and Raúl García-Castro}
 }
 ```
 

@@ -1,0 +1,32 @@
+
+title: "Generative Adversarial Networks for text-to-face synthesis & generation: A quantitative–qualitative analysis of Natural Language Processing encoders for Spanish"
+license: Apache-2.0
+authors:
+  - family-names: "Castillo-Cara"
+    given-names: "Manuel"
+    affiliation: "Universidad de Lima"
+    orcid: "https://orcid.org/0000-0002-2990-7090"
+cff-version: 1.2.0
+preferred-citation:
+  authors:
+    - family-names: "Yauri-Lozano"
+      given-names: "Eduardo"
+      affiliation: "Universidad Nacional de Ingeniería"
+    - family-names: "Castillo-Cara"
+      given-names: "Manuel"
+      affiliation: "Universidad de Nacional de Educación a Distancia"
+    - family-names: "Orozco-Barbosa"
+      given-names: "Luis"
+      affiliation: "Universidad de Castilla-La Mancha"
+    - family-names: "García-Castro"
+      given-names: "Raúl"
+      affiliation: "Universidad Politécnica de Madrid"
+  title: "Generative Adversarial Networks for text-to-face synthesis & generation: A quantitative–qualitative analysis of Natural Language Processing encoders for Spanish"
+  type: article
+  journal: "Information Processing and Management"
+  doi: 110.1016/j.ipm.2024.103667
+  year: 2021
+identifiers:
+  - description: "Generative Adversarial Networks for text-to-face synthesis & generation: A quantitative–qualitative analysis of Natural Language Processing encoders for Spanish"
+    type: doi
+    value: 10.5281/zenodo.7791805
