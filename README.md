@@ -8,7 +8,7 @@
 
 # Generative Adversarial Networks for Text-to-Face Synthesis & Generation: A Quantitative-Qualitative Analysis of Natural Language Processing Encoders for Spanish
 
-This repository contains the code, models and corpus of the project _"Generative Adversarial Networks for Text-to-Face Synthesis & Generation: A Quantitative-Qualitative Analysis of Natural Language Processing Encoders for Spanish"_. 
+This repository contains the code, models and corpus of the project _"[Generative Adversarial Networks for Text-to-Face Synthesis & Generation: A Quantitative-Qualitative Analysis of Natural Language Processing Encoders for Spanis](https://doi.org/10.1016/j.ipm.2024.103667)"_ published in [Information Processing and Management](https://doi.org/10.1016/j.ipm.2024.103667). 
 
 This work develops a study to generate images of faces from a textual description in Spanish. A cDCGAN was used as a generator, and a comparison of the RoBERTa-large-bne (**RoBERTa**), RoBERTa-large-bne-celebAEs-UNI (**RoBERTa+CelebA** our model) and Sent2vec (**Sent2vec+CelebA**). The last two models were trained using a Spanish descriptive corpus of the CelebA image dataset.
 
