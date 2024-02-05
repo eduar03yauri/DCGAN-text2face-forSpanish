@@ -108,12 +108,12 @@ print(vector)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />All code and resources of the present work in this repository are under the license <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
 
 ## Citation
-If you use resources from this repository in your work, please cite as:
+If you use resources from this repository in your work, please cite the paper published in **[Information Processing and Management](https://doi.org/10.1016/j.ipm.2024.103667)**:
 
-```
+```bib
 @article{YAURILOZANO2024103667,
 title = {Generative Adversarial Networks for text-to-face synthesis & generation: A quantitative–qualitative analysis of Natural Language Processing encoders for Spanish},
-journal = {Generative Adversarial Networks for text-to-face synthesis & generation: A quantitative–qualitative analysis of Natural Language Processing encoders for Spanish},
+journal = {Information Processing & Management},
 volume = {61},
 number = {3},
 pages = {103667},
